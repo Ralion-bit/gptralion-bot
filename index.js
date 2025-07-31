@@ -6,8 +6,8 @@ const TelegramBot = require("node-telegram-bot-api");
 const app = express();
 app.use(bodyParser.json());
 
-const OPENAI_API_KEY = "TU_OPENAI_KEY";
-const TELEGRAM_TOKEN = "TU_TELEGRAM_BOT_TOKEN";
+const OPENAI_API_KEY = "";
+const TELEGRAM";
 
 const configuration = new Configuration({
   apiKey: OPENAI_API_KEY,
